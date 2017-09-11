@@ -20,10 +20,10 @@ go install github.com/AllenDang/w32
 
 
 ### SwiftRemoteControl:
-`⌥` for disconnecting.
-`ctrl` for connecting.
-
-Server IP is hardcoded for now in `RemoteControl/ViewController.swift`.
+`⌥` for disconnecting.  
+`ctrl` for connecting.  
+  
+Server IP is hardcoded for now in `RemoteControl/ViewController.swift`.  
 Open `RemoteControl.xcworkspace`. Compile it.
 
 
