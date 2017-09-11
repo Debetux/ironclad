@@ -1,0 +1,5 @@
+target 'RemoteControl'
+use_frameworks!
+
+pod 'SwiftSocket'
+pod 'SwiftyJSON'

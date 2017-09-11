@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7328CD961F65A534006ED978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328CD951F65A534006ED978 /* AppDelegate.swift */; };
+		7328CD981F65A534006ED978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328CD971F65A534006ED978 /* ViewController.swift */; };
+		7328CD9A1F65A534006ED978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7328CD991F65A534006ED978 /* Assets.xcassets */; };
+		7328CD9D1F65A534006ED978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7328CD9B1F65A534006ED978 /* Main.storyboard */; };
+		7328CDA81F65A534006ED978 /* RemoteControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328CDA71F65A534006ED978 /* RemoteControlTests.swift */; };
+		7328CDB31F65A534006ED978 /* RemoteControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328CDB21F65A534006ED978 /* RemoteControlUITests.swift */; };
+		FD731E6D81D5D87FD7F51F53 /* Pods_RemoteControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2DDA3C2C0A6A63EF4B6ABD /* Pods_RemoteControl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7328CDA41F65A534006ED978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7328CD8A1F65A533006ED978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7328CD911F65A533006ED978;
+			remoteInfo = RemoteControl;
+		};
+		7328CDAF1F65A534006ED978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7328CD8A1F65A533006ED978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7328CD911F65A533006ED978;
+			remoteInfo = RemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172EA77E25526F09472B8AD9 /* Pods-RemoteControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteControl/Pods-RemoteControl.release.xcconfig"; sourceTree = "<group>"; };
+		7328CD921F65A534006ED978 /* RemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7328CD951F65A534006ED978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7328CD971F65A534006ED978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7328CD991F65A534006ED978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7328CD9C1F65A534006ED978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7328CD9E1F65A534006ED978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7328CDA31F65A534006ED978 /* RemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7328CDA71F65A534006ED978 /* RemoteControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlTests.swift; sourceTree = "<group>"; };
+		7328CDA91F65A534006ED978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7328CDAE1F65A534006ED978 /* RemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7328CDB21F65A534006ED978 /* RemoteControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlUITests.swift; sourceTree = "<group>"; };
+		7328CDB41F65A534006ED978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1052BC0E537E3630FCC7F8D /* Pods-RemoteControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteControl/Pods-RemoteControl.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2DDA3C2C0A6A63EF4B6ABD /* Pods_RemoteControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7328CD8F1F65A533006ED978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD731E6D81D5D87FD7F51F53 /* Pods_RemoteControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CDA01F65A534006ED978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CDAB1F65A534006ED978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619334B802A857DFC28F7D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1052BC0E537E3630FCC7F8D /* Pods-RemoteControl.debug.xcconfig */,
+				172EA77E25526F09472B8AD9 /* Pods-RemoteControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7328CD891F65A533006ED978 = {
+			isa = PBXGroup;
+			children = (
+				7328CD941F65A534006ED978 /* RemoteControl */,
+				7328CDA61F65A534006ED978 /* RemoteControlTests */,
+				7328CDB11F65A534006ED978 /* RemoteControlUITests */,
+				7328CD931F65A534006ED978 /* Products */,
+				619334B802A857DFC28F7D66 /* Pods */,
+				8448BC4062A6A01012522879 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7328CD931F65A534006ED978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7328CD921F65A534006ED978 /* RemoteControl.app */,
+				7328CDA31F65A534006ED978 /* RemoteControlTests.xctest */,
+				7328CDAE1F65A534006ED978 /* RemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7328CD941F65A534006ED978 /* RemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				7328CD951F65A534006ED978 /* AppDelegate.swift */,
+				7328CD971F65A534006ED978 /* ViewController.swift */,
+				7328CD991F65A534006ED978 /* Assets.xcassets */,
+				7328CD9B1F65A534006ED978 /* Main.storyboard */,
+				7328CD9E1F65A534006ED978 /* Info.plist */,
+			);
+			path = RemoteControl;
+			sourceTree = "<group>";
+		};
+		7328CDA61F65A534006ED978 /* RemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				7328CDA71F65A534006ED978 /* RemoteControlTests.swift */,
+				7328CDA91F65A534006ED978 /* Info.plist */,
+			);
+			path = RemoteControlTests;
+			sourceTree = "<group>";
+		};
+		7328CDB11F65A534006ED978 /* RemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7328CDB21F65A534006ED978 /* RemoteControlUITests.swift */,
+				7328CDB41F65A534006ED978 /* Info.plist */,
+			);
+			path = RemoteControlUITests;
+			sourceTree = "<group>";
+		};
+		8448BC4062A6A01012522879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF2DDA3C2C0A6A63EF4B6ABD /* Pods_RemoteControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7328CD911F65A533006ED978 /* RemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7328CDB71F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControl" */;
+			buildPhases = (
+				2F08322EF44613A36FA62A45 /* [CP] Check Pods Manifest.lock */,
+				7328CD8E1F65A533006ED978 /* Sources */,
+				7328CD8F1F65A533006ED978 /* Frameworks */,
+				7328CD901F65A533006ED978 /* Resources */,
+				471BBD4AE5606F5F32EA405A /* [CP] Embed Pods Frameworks */,
+				E25F7B834CD55751615EBA95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteControl;
+			productName = RemoteControl;
+			productReference = 7328CD921F65A534006ED978 /* RemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7328CDA21F65A534006ED978 /* RemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7328CDBA1F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControlTests" */;
+			buildPhases = (
+				7328CD9F1F65A534006ED978 /* Sources */,
+				7328CDA01F65A534006ED978 /* Frameworks */,
+				7328CDA11F65A534006ED978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7328CDA51F65A534006ED978 /* PBXTargetDependency */,
+			);
+			name = RemoteControlTests;
+			productName = RemoteControlTests;
+			productReference = 7328CDA31F65A534006ED978 /* RemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7328CDAD1F65A534006ED978 /* RemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7328CDBD1F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControlUITests" */;
+			buildPhases = (
+				7328CDAA1F65A534006ED978 /* Sources */,
+				7328CDAB1F65A534006ED978 /* Frameworks */,
+				7328CDAC1F65A534006ED978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7328CDB01F65A534006ED978 /* PBXTargetDependency */,
+			);
+			name = RemoteControlUITests;
+			productName = RemoteControlUITests;
+			productReference = 7328CDAE1F65A534006ED978 /* RemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7328CD8A1F65A533006ED978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lancelot HARDEL";
+				TargetAttributes = {
+					7328CD911F65A533006ED978 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					7328CDA21F65A534006ED978 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7328CD911F65A533006ED978;
+					};
+					7328CDAD1F65A534006ED978 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7328CD911F65A533006ED978;
+					};
+				};
+			};
+			buildConfigurationList = 7328CD8D1F65A533006ED978 /* Build configuration list for PBXProject "RemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7328CD891F65A533006ED978;
+			productRefGroup = 7328CD931F65A534006ED978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7328CD911F65A533006ED978 /* RemoteControl */,
+				7328CDA21F65A534006ED978 /* RemoteControlTests */,
+				7328CDAD1F65A534006ED978 /* RemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7328CD901F65A533006ED978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7328CD9A1F65A534006ED978 /* Assets.xcassets in Resources */,
+				7328CD9D1F65A534006ED978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CDA11F65A534006ED978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CDAC1F65A534006ED978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F08322EF44613A36FA62A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471BBD4AE5606F5F32EA405A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemoteControl/Pods-RemoteControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteControl/Pods-RemoteControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25F7B834CD55751615EBA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteControl/Pods-RemoteControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7328CD8E1F65A533006ED978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7328CD981F65A534006ED978 /* ViewController.swift in Sources */,
+				7328CD961F65A534006ED978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CD9F1F65A534006ED978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7328CDA81F65A534006ED978 /* RemoteControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7328CDAA1F65A534006ED978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7328CDB31F65A534006ED978 /* RemoteControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7328CDA51F65A534006ED978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7328CD911F65A533006ED978 /* RemoteControl */;
+			targetProxy = 7328CDA41F65A534006ED978 /* PBXContainerItemProxy */;
+		};
+		7328CDB01F65A534006ED978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7328CD911F65A533006ED978 /* RemoteControl */;
+			targetProxy = 7328CDAF1F65A534006ED978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7328CD9B1F65A534006ED978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7328CD9C1F65A534006ED978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7328CDB51F65A534006ED978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7328CDB61F65A534006ED978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7328CDB81F65A534006ED978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1052BC0E537E3630FCC7F8D /* Pods-RemoteControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @local_path/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7328CDB91F65A534006ED978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172EA77E25526F09472B8AD9 /* Pods-RemoteControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @local_path/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7328CDBB1F65A534006ED978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteControl.app/Contents/MacOS/RemoteControl";
+			};
+			name = Debug;
+		};
+		7328CDBC1F65A534006ED978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteControl.app/Contents/MacOS/RemoteControl";
+			};
+			name = Release;
+		};
+		7328CDBE1F65A534006ED978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RemoteControl;
+			};
+			name = Debug;
+		};
+		7328CDBF1F65A534006ED978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancelot.RemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RemoteControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7328CD8D1F65A533006ED978 /* Build configuration list for PBXProject "RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328CDB51F65A534006ED978 /* Debug */,
+				7328CDB61F65A534006ED978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7328CDB71F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328CDB81F65A534006ED978 /* Debug */,
+				7328CDB91F65A534006ED978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7328CDBA1F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328CDBB1F65A534006ED978 /* Debug */,
+				7328CDBC1F65A534006ED978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7328CDBD1F65A534006ED978 /* Build configuration list for PBXNativeTarget "RemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328CDBE1F65A534006ED978 /* Debug */,
+				7328CDBF1F65A534006ED978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7328CD8A1F65A533006ED978 /* Project object */;
+}
