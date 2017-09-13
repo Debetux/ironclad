@@ -24,7 +24,7 @@ func main() {
 		cursor := CursorPosition{}
 		json.Unmarshal(content, &cursor)
 		// fmt.Println(cursor)
-		// fmt.Println(string(content))
+		fmt.Println(string(content))
 		// fmt.Println(len(cursor.Keys))
 		w32.SetCursorPos(cursor.PosX, cursor.PosY)
 
