@@ -124,7 +124,8 @@ class ViewController: NSViewController {
     }
 
     override func keyDown(with event: NSEvent) {
-        self.state.Keys.append(KeyboardEvent(KeyCode: Int(event.characters!.asciiArray[0]), Status:1))
+        let scalars = String(event.characters!)?.unicodeScalars
+        self.state.Keys.append(KeyboardEvent(KeyCode: Int((scalars?[(scalars?.startIndex)!].value)!), Status:1))
         self.sendData()
         switch event.modifierFlags.intersection(.deviceIndependentFlagsMask) {
         case [.command] where event.characters == "l",
@@ -136,8 +137,10 @@ class ViewController: NSViewController {
     }
     
     override func keyUp(with event: NSEvent) {
-        self.state.Keys.append(KeyboardEvent(KeyCode: Int(event.characters!.asciiArray[0]), Status:2))
-        self.sendData()
+        //let scalars = String(event.characters!)?.unicodeScalars
+        //self.state.Keys.append(KeyboardEvent(KeyCode: Int((scalars?[(scalars?.startIndex)!].value)!), Status:2))
+        print(event.characters!)
+        //self.sendData()
         switch event.modifierFlags.intersection(.deviceIndependentFlagsMask) {
         case [.command] where event.characters == "l",
              [.command, .shift] where event.characters == "l":
@@ -205,7 +208,7 @@ class ViewController: NSViewController {
     }
     
     func sendData() -> Int {
-        let keysArray = "[" + state.Keys.map {String(format:"{\"KeyCode\": %x, \"Status\": %x}", $0.KeyCode, $0.Status)}.joined(separator: ",") + "]";
+        let keysArray = "[" + state.Keys.map {String(format:"{\"KeyCode\": \"0x%x\", \"Status\": %x}", Int($0.KeyCode), $0.Status)}.joined(separator: ",") + "]";
         let json = String(format: "{\"PosX\": %.0f, \"PosY\": %.0f, \"MouseLeftStatus\":%x, \"Keys\": " + keysArray + " }\n", self.state.PosX * 1.375, self.state.PosY * 1.2, self.state.MouseLeftStatus)
         print(json)
         self.state.Keys = []
